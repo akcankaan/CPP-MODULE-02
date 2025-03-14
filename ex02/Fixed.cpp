@@ -56,11 +56,7 @@ bool Fixed::operator!=(const Fixed& other) const { return _value != other._value
 
 Fixed Fixed::operator+(const Fixed& other) const { return Fixed(this->toFloat() + other.toFloat()); }
 Fixed Fixed::operator-(const Fixed& other) const { return Fixed(this->toFloat() - other.toFloat()); }
-Fixed Fixed::operator*(const Fixed &other) const
-{
-    std::cout << "Multiplication: " << this->toFloat() << " * " << other.toFloat() << std::endl;
-    return Fixed(this->toFloat() * other.toFloat());
-}
+Fixed Fixed::operator*(const Fixed &other) const { return Fixed(this->toFloat() * other.toFloat()); }
 Fixed Fixed::operator/(const Fixed &other) const { return Fixed(this->toFloat() / other.toFloat()); }
 
 Fixed& Fixed::operator++() { _value++; return *this; }
