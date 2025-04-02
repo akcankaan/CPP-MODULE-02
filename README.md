@@ -13,7 +13,6 @@ Bu modülde şunları öğreneceksiniz:
 - Karşılaştırma ve aritmetik işlemleri
 - Pre/post arttırma ve azaltma işlemleri
 - `Orthodox Canonical Form` (kopyalama ve atama gibi)
-- `BSP (Binary Space Partitioning)` algoritması
 
 ---
 
