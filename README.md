@@ -33,3 +33,27 @@ Her egzersiz klasöründe `Makefile` yer almaktadır. Kodlar aşağıdaki şekil
 ```bash
 -Wall -Wextra -Werror -std=c++98
 ```
+
+## 🚫 Kurallar ve Yasaklar
+- malloc, free, printf gibi C fonksiyonları yasaktır.
+- using namespace std ve friend kullanımı yasaktır.
+- STL veri yapıları ve algoritmaları yalnızca Module 08'den itibaren serbesttir.
+- Tüm sınıflar Orthodox Canonical Form'a göre yazılmalıdır:
+- - Default constructor
+  - Copy constructor
+  - Copy assignment operator
+  - Destructor
+
+## ✅ Teslimat ve Değerlendirme
+- Tüm çalışmalar Git üzerinden teslim edilir.
+- Dosya isimleri, dizin yapısı ve sınıf isimleri belirtilen kurallara uymalıdır.
+- Kod okunabilir, anlaşılır ve temiz yazılmalıdır.
+
+## 🧠 Tavsiyeler
+- Bellek sızıntılarını (memory leaks) kontrol etmeyi unutmayın.
+- Header dosyalarında include guard kullanmayı ihmal etmeyin.
+- main.cpp içinde örnek test senaryoları yazarak her fonksiyonu test edin.
+- Modül başlamadan önce tüm dökümanı dikkatlice okuyun.
+
+## 🧑‍💻 Yazar
+Mehmet Kaan Akcan 42 Kocaeli / [https://github.com/akcankaan]
